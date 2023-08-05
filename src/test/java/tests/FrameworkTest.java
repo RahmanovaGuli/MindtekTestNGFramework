@@ -1,0 +1,38 @@
+package tests;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+import utilities.BrowserUtils;
+
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
+public class FrameworkTest {
+    WebDriver driver;
+
+    @BeforeMethod
+    public void setup(){
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+    }
+    @Test
+    public void verifyGoogleHomePage() throws IOException {
+        BrowserUtils.takeScreenshot("TestScreenshot");
+   driver.get("https://www.google.com/");
+        Assert.assertEquals(driver.getTitle(),"Google");
+    }
+
+    @AfterMethod
+    public void tearDown() throws InterruptedException {
+        Thread.sleep(2000);
+        driver.quit();
+    }
+}

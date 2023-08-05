@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-16T00:39:37Z" name="MindtekTestNGFramework" finished-at="2023-06-16T00:40:50Z" duration-ms="73694">
+    <groups>
+      <group name="regression">
+        <method signature="BlazedemoTests.verifyDestinationOfTheWeek()[pri:0, instance:tests.BlazedemoTests@3b0090a4]" name="verifyDestinationOfTheWeek" class="tests.BlazedemoTests"/>
+        <method signature="BlazedemoTests.verifyFindFlights()[pri:0, instance:tests.BlazedemoTests@3b0090a4]" name="verifyFindFlights" class="tests.BlazedemoTests"/>
+        <method signature="BlazedemoTests.verifyFlightInfo()[pri:0, instance:tests.BlazedemoTests@3b0090a4]" name="verifyFlightInfo" class="tests.BlazedemoTests"/>
+        <method signature="SauceDemoTests.sauceDemoLoginNegative()[pri:0, instance:tests.SauceDemoTests@3cd3e762]" name="sauceDemoLoginNegative" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.sauceDemoLoginPositive()[pri:0, instance:tests.SauceDemoTests@3cd3e762]" name="sauceDemoLoginPositive" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.sauceDemoVerifyPriceLowHigh()[pri:0, instance:tests.SauceDemoTests@3cd3e762]" name="sauceDemoVerifyPriceLowHigh" class="tests.SauceDemoTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="BlazedemoTests.verifyDestinationOfTheWeek()[pri:0, instance:tests.BlazedemoTests@3b0090a4]" name="verifyDestinationOfTheWeek" class="tests.BlazedemoTests"/>
+        <method signature="SauceDemoTests.sauceDemoLoginPositive()[pri:0, instance:tests.SauceDemoTests@3cd3e762]" name="sauceDemoLoginPositive" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.sauceDemoVerifyPriceLowHigh()[pri:0, instance:tests.SauceDemoTests@3cd3e762]" name="sauceDemoVerifyPriceLowHigh" class="tests.SauceDemoTests"/>
+      </group> <!-- smoke -->
+      <group name="saucedemo">
+        <method signature="SauceDemoTests.sauceDemoLoginNegative()[pri:0, instance:tests.SauceDemoTests@3cd3e762]" name="sauceDemoLoginNegative" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.sauceDemoLoginPositive()[pri:0, instance:tests.SauceDemoTests@3cd3e762]" name="sauceDemoLoginPositive" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.sauceDemoVerifyPriceLowHigh()[pri:0, instance:tests.SauceDemoTests@3cd3e762]" name="sauceDemoVerifyPriceLowHigh" class="tests.SauceDemoTests"/>
+      </group> <!-- saucedemo -->
+      <group name="login">
+        <method signature="SauceDemoTests.sauceDemoLoginNegative()[pri:0, instance:tests.SauceDemoTests@3cd3e762]" name="sauceDemoLoginNegative" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.sauceDemoLoginPositive()[pri:0, instance:tests.SauceDemoTests@3cd3e762]" name="sauceDemoLoginPositive" class="tests.SauceDemoTests"/>
+      </group> <!-- login -->
+      <group name="blazedemo">
+        <method signature="BlazedemoTests.verifyDestinationOfTheWeek()[pri:0, instance:tests.BlazedemoTests@3b0090a4]" name="verifyDestinationOfTheWeek" class="tests.BlazedemoTests"/>
+        <method signature="BlazedemoTests.verifyFindFlights()[pri:0, instance:tests.BlazedemoTests@3b0090a4]" name="verifyFindFlights" class="tests.BlazedemoTests"/>
+        <method signature="BlazedemoTests.verifyFlightInfo()[pri:0, instance:tests.BlazedemoTests@3b0090a4]" name="verifyFlightInfo" class="tests.BlazedemoTests"/>
+      </group> <!-- blazedemo -->
+    </groups>
+    <test started-at="2023-06-16T00:39:37Z" name="UI Automation" finished-at="2023-06-16T00:40:50Z" duration-ms="73694">
+      <class name="tests.SauceDemoTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SauceDemoTests@3cd3e762]" started-at="2023-06-16T00:40:09Z" name="setUp" finished-at="2023-06-16T00:40:14Z" duration-ms="5121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sauceDemoLoginNegative()[pri:0, instance:tests.SauceDemoTests@3cd3e762]" started-at="2023-06-16T00:40:14Z" name="sauceDemoLoginNegative" finished-at="2023-06-16T00:40:20Z" duration-ms="5699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sauceDemoLoginNegative -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTests@3cd3e762]" started-at="2023-06-16T00:40:20Z" name="tearDown" finished-at="2023-06-16T00:40:22Z" duration-ms="2096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SauceDemoTests@3cd3e762]" started-at="2023-06-16T00:40:22Z" name="setUp" finished-at="2023-06-16T00:40:27Z" duration-ms="5086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sauceDemoLoginPositive()[pri:0, instance:tests.SauceDemoTests@3cd3e762]" started-at="2023-06-16T00:40:27Z" name="sauceDemoLoginPositive" finished-at="2023-06-16T00:40:33Z" duration-ms="6437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sauceDemoLoginPositive -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTests@3cd3e762]" started-at="2023-06-16T00:40:33Z" name="tearDown" finished-at="2023-06-16T00:40:35Z" duration-ms="2108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SauceDemoTests@3cd3e762]" started-at="2023-06-16T00:40:35Z" name="setUp" finished-at="2023-06-16T00:40:41Z" duration-ms="5159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sauceDemoVerifyPriceLowHigh()[pri:0, instance:tests.SauceDemoTests@3cd3e762]" started-at="2023-06-16T00:40:41Z" name="sauceDemoVerifyPriceLowHigh" finished-at="2023-06-16T00:40:48Z" duration-ms="7492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sauceDemoVerifyPriceLowHigh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTests@3cd3e762]" started-at="2023-06-16T00:40:48Z" name="tearDown" finished-at="2023-06-16T00:40:50Z" duration-ms="2144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SauceDemoTests -->
+      <class name="tests.BlazedemoTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BlazedemoTests@3b0090a4]" started-at="2023-06-16T00:39:37Z" name="setUp" finished-at="2023-06-16T00:39:44Z" duration-ms="7011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDestinationOfTheWeek()[pri:0, instance:tests.BlazedemoTests@3b0090a4]" started-at="2023-06-16T00:39:44Z" name="verifyDestinationOfTheWeek" finished-at="2023-06-16T00:39:46Z" duration-ms="2306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDestinationOfTheWeek -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BlazedemoTests@3b0090a4]" started-at="2023-06-16T00:39:46Z" name="tearDown" finished-at="2023-06-16T00:39:48Z" duration-ms="2168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BlazedemoTests@3b0090a4]" started-at="2023-06-16T00:39:48Z" name="setUp" finished-at="2023-06-16T00:39:54Z" duration-ms="5739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFindFlights()[pri:0, instance:tests.BlazedemoTests@3b0090a4]" started-at="2023-06-16T00:39:54Z" name="verifyFindFlights" finished-at="2023-06-16T00:39:57Z" duration-ms="2725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFindFlights -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BlazedemoTests@3b0090a4]" started-at="2023-06-16T00:39:57Z" name="tearDown" finished-at="2023-06-16T00:39:59Z" duration-ms="2088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BlazedemoTests@3b0090a4]" started-at="2023-06-16T00:39:59Z" name="setUp" finished-at="2023-06-16T00:40:04Z" duration-ms="5044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFlightInfo()[pri:0, instance:tests.BlazedemoTests@3b0090a4]" started-at="2023-06-16T00:40:04Z" name="verifyFlightInfo" finished-at="2023-06-16T00:40:07Z" duration-ms="3162" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Flight Number: 43] but found [Flight Number: UA954],
+expected [Airline: Virgin America] but found [Airline: United],
+expected [472.56] but found [Price: 400]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Flight Number: 43] but found [Flight Number: UA954],
+expected [Airline: Virgin America] but found [Airline: United],
+expected [472.56] but found [Price: 400]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at tests.BlazedemoTests.verifyFlightInfo(BlazedemoTests.java:82)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightInfo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BlazedemoTests@3b0090a4]" started-at="2023-06-16T00:40:07Z" name="tearDown" finished-at="2023-06-16T00:40:09Z" duration-ms="2092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BlazedemoTests -->
+    </test> <!-- UI Automation -->
+  </suite> <!-- MindtekTestNGFramework -->
+</testng-results>
